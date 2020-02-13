@@ -1,0 +1,28 @@
+.title{
+  text-align: center;
+}
+
+.container{
+  margin: 5px 20px 5px 50px;
+}
+
+.square{
+  border: 0.1px solid black;
+  height: 8vh;
+  width: 4.5vw;
+  display: inline-block;
+}
+
+.laser{
+  background-color: red;
+}
+
+.player{
+  background-image: url('https://cdn.iconscout.com/icon/premium/png-256-thumb/spaceship-103-707736.png');
+  background-size: cover;
+}
+
+.monster{
+  background-image: url('https://lh3.googleusercontent.com/proxy/WQG2nyi32KadEYkjGDgXGhnmEjicXDqdlPejicf3gZ5X0uB_BwR3cyUAuztMm712RYbBChErt4aifM70Zk0SoxfFqPGgDcx1pKcXiwc8KNkD4jqSWBNadtc18bsgxGp6RB9emMRQgMg9TFIG8tig1Q');
+  background-size: cover;
+}
