@@ -48,6 +48,10 @@ document.addEventListener('DOMContentLoaded', ()=> {
       default:
     }
   }
+
+  const test = [{name: 'harry', surname: 'potter', power:'two'},{name:'hermoine', surname: 'grainger', power:'one'}]
+  console.log(test)
+  console.log(test[0].name + ' ' + test[1].surname + ' ' +test[0].power)
   
   window.addEventListener('keypress', handleKeyDown)  
 
